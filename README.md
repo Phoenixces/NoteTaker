@@ -1,4 +1,4 @@
-# NoteTaker Project
+# NoteTaker 
 
 ## Description
 NoteTaker is a Java-based application developed using Core Java, Hibernate framework, and front-end technologies such as HTML, CSS, and JavaScript. It is designed to provide users with a convenient and efficient way to take notes and organize their thoughts. The application allows users to create, view, update, and delete notes in a user-friendly interface.
@@ -13,3 +13,8 @@ NoteTaker is a Java-based application developed using Core Java, Hibernate frame
 - **HTML**: The application's user interface is built using HTML, providing the structure and content of the web pages.
 - **CSS**: Cascading Style Sheets (CSS) are used to enhance the visual presentation of the application, including layout, colors, and typography.
 - **JavaScript**: JavaScript is used to add interactivity to the application, handling user actions and dynamically updating the page content.
+
+---
+
+https://github.com/Phoenixces/NoteTaker/assets/88362430/d1231baa-4977-4706-b2e4-21d8781ab9d6
+
