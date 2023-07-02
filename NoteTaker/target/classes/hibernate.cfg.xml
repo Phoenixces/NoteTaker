@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Hibernate DTD(Doc type Definition -->
+<!DOCTYPE hibernate-configuration SYSTEM
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		
+		<!-- myhiber is database name -->
+		<property name="connection.url">jdbc:mysql://localhost:3306/myhiber</property>
+		
+		<property name="connection.username">root</property>
+		
+		<property name="connection.password">root</property>
+		
+		<!-- dialect is additional or anonymous property associated to that database 
+			system -->
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		
+		<!-- below property help crating table automatically using orm mapping 
+			when table isn't created, it can have below values: create, update etc -->
+		<property name="hbm2ddl.auto">update</property>
+		
+		<!-- below property helps in showing query being executed -->
+		<property name="show_sql">true</property>
+		
+		<!-- Below line is to format sql query -->
+		<property name="format_sql">true</property>
+		
+		<mapping class ="com.entities.Note"/>
+		
+	
+	</session-factory>
+</hibernate-configuration>
